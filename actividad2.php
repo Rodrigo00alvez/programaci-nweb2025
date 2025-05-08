@@ -1,6 +1,7 @@
 <?php
 if($_SERVER ["REQUEST_METHOD"] == "POST"){
 $cantidadEnPesos = floatval($_POST["pesos"]);
+$moneda=$_POST["pesos"];
 $valorDolar = 40;
 $valorEuro = 43;
 $valorReal = 8;
